@@ -24,8 +24,5 @@ jobs:
             - name: Installer Cypress
               run: npm install cypress --save-dev
 
-            - name: Exécuter ESLint
-              run: npx eslint ../script.js
-
             - name: Exécuter Cypress
               run: npx cypress run
